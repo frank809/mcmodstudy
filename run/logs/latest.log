@@ -1,0 +1,15 @@
+[09:39:29] [main/INFO]: Setting user: Player95
+[09:39:38] [main/WARN]: Skipping bad option: lastServer:
+[09:39:38] [main/INFO]: LWJGL Version: 2.9.4
+[09:39:44] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Diracon
+[09:39:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:39:52] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[09:39:52] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:39:52] [Thread-5/INFO]: OpenAL initialized.
+[09:39:53] [Sound Library Loader/INFO]: Sound engine started
+[09:40:02] [main/INFO]: Created: 512x512 textures-atlas
+[09:40:05] [main/WARN]: Skipping bad option: lastServer:
+[09:40:05] [main/INFO]: Narrator library for x64 successfully loaded
+[09:41:23] [main/INFO]: Stopping!
+[09:41:23] [main/INFO]: SoundSystem shutting down...
+[09:41:23] [main/WARN]: Author: Paul Lamb, www.paulscode.com

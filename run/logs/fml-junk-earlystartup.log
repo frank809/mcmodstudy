@@ -1,0 +1,43 @@
+[09:39:22] [main/INFO] [GradleStart]: Extra: []
+[09:39:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/j34liu/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:39:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:39:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:39:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:39:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:39:41] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 242305244 nanos
+[09:39:44] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[09:40:06] [Forge Version Check/DEBUG] [ForgeVersionCheck]: Failed to process update information
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_101]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_101]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_101]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_101]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:989) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:987) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:986) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1433) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1431) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1430) ~[?:1.8.0_101]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_101]
+	at net.minecraftforge.common.ForgeVersion$1.process(ForgeVersion.java:215) [ForgeVersion$1.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:198) [ForgeVersion$1.class:?]
